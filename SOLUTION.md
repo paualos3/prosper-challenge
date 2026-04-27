@@ -259,6 +259,3 @@ account.
 - **End-to-end against Postgres mode.** A CI smoke test that runs the app in
   Postgres mode and drives a scripted conversation would catch regressions in
   prompt flow, tool schemas, and backend behavior together.
-- **Dev-container setup.** Add a checked-in `.devcontainer/` that builds on the
-  same Pipecat base image, syncs locked dependencies, installs Playwright
-  Chromium, and forwards port `7860` for one-click remote launch.
